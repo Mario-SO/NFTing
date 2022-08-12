@@ -9,7 +9,7 @@ export default function App() {
       <div className="navbar bg-base-100">
         <a className="btn btn-ghost normal-case text-xl">NFTing</a>
       </div>
-      {/* <Hero /> */}
+      <Hero />
       <Tier title="FREE Tier" />
       <Tier title="Tier 1" />
       <Tier title="Tier 2" />
