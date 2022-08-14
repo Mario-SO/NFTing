@@ -8,10 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "daisyui": "^2.22.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "tailwind-scrollbar-hide": "^1.1.7"
+    "daisyui": "2.22.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "web3modal": "1.9.8"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
