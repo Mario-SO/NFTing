@@ -13,9 +13,7 @@ export default function App() {
 
       <Hero />
 
-      <Tier collection="Unpolite Punks" />
-      <Tier collection="Unpolite Apes" />
-      <Tier collection="Unpolite Nouns" />
+      <Tier />
     </div>
   )
 }
