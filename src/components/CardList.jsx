@@ -2,7 +2,7 @@ import { Card } from "./Card";
 
 export function CardList() {
     return (
-        <div className="bg-base-200">
+        <div className="bg-base-200 min-h-screen">
             <div className="grid px-10 pt-10 lg:grid-cols-2 md:grid-cols-1 py-10">
                 <Card image="/noun.png" collection="Unpolite Nouns" description="They where the ones that had the biggest treasury of any DAO, now they say F**k you, we are leaving with all this money." mintPage="/" />
                 <Card image="/punk.png" collection="Unpolite Punks" description="Crypto Punks gone wild and unpolite. They will show you a nicely pixelated middle finger." mintPage="/" />
