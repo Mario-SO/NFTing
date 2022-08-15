@@ -1,6 +1,6 @@
 import { ConnectButton } from "./components/ConnectButton";
 import { Hero } from "./components/Hero";
-import { Tier } from "./components/Tier";
+import { CardList } from "./components/CardList";
 
 
 export default function App() {
@@ -13,7 +13,7 @@ export default function App() {
 
       <Hero />
 
-      <Tier />
+      <CardList />
     </div>
   )
 }
