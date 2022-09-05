@@ -25,8 +25,8 @@ export function ConnectButton() {
             setWalletAddress(accounts[0]);
             chainId = await window.ethereum.request({ method: 'eth_chainId' });
             // Check if user is connected to Mainnet
-            if (chainId != '0x4') {
-                alert("Please connect to Rinkeby Testnet");
+            if (chainId != '0x5') {
+                alert("Please connect to Goerli Testnet");
             } else {
                 setChainId(chainId);
             }

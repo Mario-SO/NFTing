@@ -8,7 +8,7 @@ export function Card({ image, collection, description, mintPage }) {
                 <h2 className="card-title">Unpolite {collection}</h2>
                 <p>{description}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-success"><Link to={mintPage} target="_blank" rel="noopener noreferrer">Go Mint!</Link></button>
+                    <button className="btn-disabled btn-success"><Link to={mintPage} target="_blank" rel="noopener noreferrer">Coming Soon!</Link></button>
                 </div>
             </div>
         </div>

@@ -6,10 +6,10 @@ import {
   Route,
 } from "react-router-dom";
 
+import App from './App'
 import './index.css'
 
 // Routes
-import App from './App' 
 import Hello from './routes/hello'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
